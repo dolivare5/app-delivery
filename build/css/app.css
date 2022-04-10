@@ -343,7 +343,7 @@ template {
 }
 
 .bg-primario {
-    background-color: #e8505b;
+    background-color: #8b0d32;
 }
 
 /** Media Queries **/
@@ -420,7 +420,7 @@ h3 {
 }
 
 .header__logo {
-    width: 30rem;
+    width: 14rem;
     margin-bottom: 5rem;
 }
 
@@ -458,7 +458,7 @@ h3 {
 }
 
 .navegacion__link--registrar {
-    background-color: #e8505b;
+    background-color: #8b0d32;
     font-size: 2rem;
     padding: 1.2rem 3rem;
     border-radius: 1rem;
@@ -474,7 +474,7 @@ h3 {
 
 .navegacion__link--registrar:hover {
     cursor: pointer;
-    background-color: #e22331;
+    background-color: #5c0921;
 }
 
 @media (min-width: 768px) {
@@ -492,7 +492,7 @@ h3 {
 }
 
 .formulario__contenido {
-    background-color: #e8505b;
+    background-color: #8b0d32;
     padding: 5rem;
     display: flex;
     flex-direction: column;
@@ -579,7 +579,7 @@ h3 {
 }
 
 .pasos__contenido {
-    background-color: #e8505b;
+    background-color: #8b0d32;
     padding-bottom: 10rem;
 }
 
@@ -774,7 +774,7 @@ h3 {
 
 .favorito__nombre {
     margin: 1rem 0;
-    color: #e8505b;
+    color: #8b0d32;
     font-size: 2.4rem;
 }
 
@@ -822,7 +822,7 @@ h3 {
 }
 
 .repartidores__enlace {
-    background-color: #e8505b;
+    background-color: #8b0d32;
     font-size: 2rem;
     padding: 1.2rem 3rem;
     border-radius: 1rem;
@@ -838,7 +838,7 @@ h3 {
 
 .repartidores__enlace:hover {
     cursor: pointer;
-    background-color: #e22331;
+    background-color: #5c0921;
 }
 
 @media (min-width: 768px) {
@@ -926,6 +926,66 @@ h3 {
     .tiendas__grid {
         gap: 10rem;
     }
+}
+
+.footer {
+    background-color: #455a64;
+    padding: 5rem;
+}
+
+@media (min-width: 768px) {
+    .footer__grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.footer__wioget {
+    margin-bottom: 5rem;
+}
+
+.footer__wioget:last-of-type {
+    margin-bottom: 0;
+}
+
+.footer__heading {
+    color: #FFFFFF;
+    margin: 0;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .footer__heading {
+        text-align: left;
+    }
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.footer__link, .footer__texto {
+    font-size: 2rem;
+    line-height: 1.8;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .footer__link, .footer__texto {
+        text-align: left;
+    }
+}
+
+.footer__copyright {
+    background-color: #8b0d32;
+    margin: 0;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2rem;
 }
 
 /*# sourceMappingURL=app.css.map */
