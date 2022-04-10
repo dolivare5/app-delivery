@@ -24,7 +24,7 @@
         transition-property: transform;
         transition-duration: 500ms;
 
-        :hover{
+        &__:hover{
             transform: scale(1.2);
         }
     }

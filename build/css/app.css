@@ -911,7 +911,7 @@ h3 {
     transition-duration: 500ms;
 }
 
-.tiendas__enlace :hover {
+.tiendas__enlace__:hover {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
