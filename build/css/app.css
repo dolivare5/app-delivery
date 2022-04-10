@@ -911,7 +911,7 @@ h3 {
     transition-duration: 500ms;
 }
 
-.tiendas__enlace__:hover {
+.tiendas__enlace:hover {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
@@ -920,6 +920,12 @@ h3 {
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 768px) {
+    .tiendas__grid {
+        gap: 10rem;
+    }
 }
 
 /*# sourceMappingURL=app.css.map */

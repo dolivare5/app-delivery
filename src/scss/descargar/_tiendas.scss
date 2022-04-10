@@ -24,12 +24,15 @@
         transition-property: transform;
         transition-duration: 500ms;
 
-        &__:hover{
+        &:hover{
             transform: scale(1.2);
         }
     }
 
     &__grid{
         @include m.grid(2, 2rem);
+        @include m.tablet{
+            gap: 10rem;
+        }
     }
 }
