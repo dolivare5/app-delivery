@@ -9,9 +9,14 @@
     width: 90%;
 
     @include m.tablet{
-        width: auto;
         flex-direction: row;
+        justify-content: space-between;
     }
+
+    @include m.desktop{
+        width: auto;
+    }
+
     &__link{
         font-size: 2rem;
         font-weight: 700;
